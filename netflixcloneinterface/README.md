@@ -24,9 +24,44 @@ To start the project:
 $ cd YOUR_PROJECT_NAME
 $ npm start
 ```
+
 ___
 
-## 2 - Available Scripts
+## 2 - Hidden your API Key
+
+### 2.1 - Create a file called `.env` in the root of the project directory.
+
+```
+.
+├── .env
+├── .gitignore
+├── node_modules
+├── package.json
+├── public
+├── README.md
+├── src
+└── yarn.lock
+```
+
+### 2.2 - Put your key in the `.env` file.
+
+- The `create-react-app` tool uses `REACT_APP_` to identify variables. So put `REACT_APP_` to your API Key.
+
+```
+// REACT_APP_WEATHER_API_KEY=your_api_key
+// Example:
+REACT_APP_WEATHER_API_KEY=123456
+```
+
+- In the file `.js`, to access the variable use:
+
+```
+process.env.REACT_APP_WEATHER_API_KEY;
+```
+
+___
+
+## 3 - Available Scripts
 
 In the project directory, you can run:
 
