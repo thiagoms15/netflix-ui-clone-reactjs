@@ -59,9 +59,15 @@ REACT_APP_WEATHER_API_KEY=123456
 process.env.REACT_APP_WEATHER_API_KEY;
 ```
 
+## 3 - Install icons from Material-UI
+
+```
+$ npm install @material-ui/core
+$ npm install @material-ui/icons
+```
 ___
 
-## 3 - Available Scripts
+## 4 - Available Scripts
 
 In the project directory, you can run:
 
