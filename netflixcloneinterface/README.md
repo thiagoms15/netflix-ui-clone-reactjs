@@ -9,6 +9,15 @@ Data extracted from [TMDB](https://www.themoviedb.org/documentation/api).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+#### Preview
+
+![Home screen animated](images/screen.gif)
+
+#### Screenshot
+
+![Home screen](images/fake-netflix-01.png)
+![Select Movie](images/fake-netflix-02.png)
+
 ___
 
 ## 1 - How to create the project
